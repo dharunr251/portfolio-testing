@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Layout, Download } from 'lucide-react';
+import { Layout, Download } from 'lucide-react';
 import './About.css';
 
 

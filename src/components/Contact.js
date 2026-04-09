@@ -1,19 +1,8 @@
-import React, { useState } from 'react';
-import { Mail, MapPin, Phone, Send } from 'lucide-react';
+import React from 'react';
+import { Mail, MapPin, Phone } from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert('Thank you for reaching out! This is a demo template.');
-    setFormData({ name: '', email: '', message: '' });
-  };
 
   return (
     <section id="contact" className="contact-section light-theme">
@@ -43,48 +32,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          
-          {/* <form className="contact-form" onSubmit={handleSubmit}>
-            <div className="form-group">
-              <label htmlFor="name">Name</label>
-              <input 
-                type="text" 
-                id="name" 
-                name="name" 
-                value={formData.name}
-                onChange={handleChange}
-                required 
-                placeholder="John Doe"
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="email">Email</label>
-              <input 
-                type="email" 
-                id="email" 
-                name="email" 
-                value={formData.email}
-                onChange={handleChange}
-                required 
-                placeholder="john@example.com"
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="message">Message</label>
-              <textarea 
-                id="message" 
-                name="message" 
-                rows="5" 
-                value={formData.message}
-                onChange={handleChange}
-                required
-                placeholder="How can I help you?"
-              ></textarea>
-            </div>
-            <button type="submit" className="btn btn-primary submit-btn">
-              Send Message <Send size={18} />
-            </button>
-          </form> */}
         </div>
       </div>
       
