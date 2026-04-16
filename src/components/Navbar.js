@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container container">
         <a href="#home" className="logo">
-          Dharun<span className="accent">R</span>
+          VIJAYALAKSHMI<span className="accent">S</span>
         </a>
         <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>

@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight, Download } from 'lucide-react';
 import './Hero.css';
 import profile from '../Pictures/portfolio1.jpg.jpeg';
+import resume from '../resume/resume.pdf';
 
 const Hero = () => {
   return (
@@ -9,15 +10,15 @@ const Hero = () => {
       <div className="container hero-container">
         <div className="hero-content animate-fade-in">
           <h2 className="greeting">Hello, I'm</h2>
-          <h1 className="name gradient-text">DHARUN .R</h1>
+          <h2 className="name gradient-text">VIJAYALAKSHMI .S</h2>
           <p className="subtitle">
-            I build beautiful, responsive, and uniquely engaging web experiences that fuse design with robust engineering.
+           Detail-oriented Software Test Engineer with hands-on experience in Manual and Automation Testing. Skilled in Selenium WebDriver, Java, TestNG, and real-time project testing. Passionate about delivering high-quality, bug-free applications.
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">
               View My Work <ArrowRight className="btn-icon" size={20} />
             </a>
-            <a href="/resume.pdf" download="Dharun_R_Resume.pdf" className="btn btn-secondary">
+            <a href={resume} download="resume.pdf" className="btn btn-secondary">
               Download CV <Download className="btn-icon" size={20} />
             </a>
             <a href="#contact" className="btn btn-secondary">

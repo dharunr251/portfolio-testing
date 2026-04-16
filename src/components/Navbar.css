@@ -9,7 +9,7 @@
 }
 
 .navbar.scrolled {
-  background: var(--glass-bg);
+  background: var(--bg-secondary);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--glass-border);

@@ -20,15 +20,15 @@ const Contact = () => {
             <div className="contact-details">
               <div className="contact-item">
                 <div className="contact-icon"><Mail size={20} /></div>
-                <span>rdharunnn@gmail.com</span>
+                <span>lakshimiviji97@gmail.com</span>
               </div>
               <div className="contact-item">
                 <div className="contact-icon"><Phone size={20} /></div>
-                <span>+91 7339043503</span>
+                <span>+91 89035 62168</span>
               </div>
               <div className="contact-item">
                 <div className="contact-icon"><MapPin size={20} /></div>
-                <span>Tiruppur, Tamil Nadu</span>
+                <span>Madurai, Tamil Nadu</span>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Contact = () => {
       
       <footer className="footer">
         <div className="container footer-content">
-          <p>&copy; {new Date().getFullYear()} Dharun R. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Vijayalakshmi S. All rights reserved.</p>
         </div>
       </footer>
     </section>

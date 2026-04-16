@@ -4,30 +4,22 @@ import './Education.css';
 const Education = () => {
   const educationList = [
     {
-      degree: "Master of Computer Science",
-      institution: "Bharathidasan University",
-      year: "2025 - 2027",
-      description: " currently pursuing.",
-      percentage:"81.5%"
-    },
-    {
       degree: "Bachelor of Computer Science",
-      institution: "AG Arts and Science College",
-      year: "2022- 2025",
-      description: "Focused on web development, databases, and network administration.",
-      percentage:"79.9%"
+      institution: "Mangaiyarkarasi College of Arts & Science, Madurai",
+      year: "2021- 2024",
+      percentage:"80%"
     },
     {
       degree: "Higher Secondary",
-      institution: "Govt Model Higher Secondary School,thopputhurai",
-      year: "2020- 2022",
-      percentage:"58.7%"
+      institution: "Sree Maha Matric Hr Sec School",
+      year: "2020- 2021",
+      percentage:"86.3%"
     },
     {
       degree:"High School",
-      institution:"Govt Model Higher Secondary School,thopputhurai",
-      year:"2019- 2020",
-      percentage:"76.6%"
+      institution:"Sree Maha Matric Hr Sec School",
+      year:"2018- 2019",
+      percentage:"83.6%"
     }
   ];
 

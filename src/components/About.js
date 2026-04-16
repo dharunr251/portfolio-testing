@@ -1,14 +1,15 @@
 import React from 'react';
-import { Layout, Download } from 'lucide-react';
+import { Layout, Download, Code, Monitor, Blocks } from 'lucide-react';
 import './About.css';
+import resume from '../resume/resume.pdf';
 
 
 const About = () => {
   const skills = [
-    { name: "Full Stack Development", icon: <Layout size={24} />, desc: "React, JavaScript, HTML/CSS, Python, Django, MySQL" },
-    // { name: "Backend Development", icon: <Code size={24} />, desc: "Python, Django, MySQL" },
-    // { name: "UI/UX Design", icon: <Monitor size={24} />, desc: "Figma, Adobe XD" },
-    // { name: "Architecture", icon: <Blocks size={24} />, desc: "Microservices, AWS" }
+    { name: "Manual Testing", icon: <Layout size={24} />, desc: "Functional, Regression, Smoke, and Sanity Testing" },
+    { name: "Automation Testing", icon: <Code size={24} />, desc: "Selenium WebDriver, Java, TestNG, POM" },
+    { name: "Defect Management", icon: <Monitor size={24} />, desc: "Identifying, tracking, and resolving software defects" },
+    { name: "Domain Expertise", icon: <Blocks size={24} />, desc: "Real-time e-commerce applications" }
   ];
 
   return (
@@ -20,16 +21,13 @@ const About = () => {
           <div className="about-text animate-fade-in">
             <h3 className="sub-heading">Passion for creating seamless web experiences.</h3>
             <p>
-              I am a driven software developer specializing in bridging the gap between exceptional design and robust engineering. 
-              My journey started with a deep curiosity for how things work on the web, and it has evolved into a career of 
-              building scalable, human-centered products.
+             I am a dedicated Software Test Engineer with a strong foundation in both Manual and Automation Testing. I specialize in designing effective test cases, identifying defects, and ensuring software quality across applications.
             </p>
             <p>
-              Whether it's designing highly interactive interfaces or structuring resilient backend services, I strive to 
-              deliver pixel-perfect implementations paired with maintainable codebases.
+             I have hands-on experience working on real-time e-commerce applications, where I performed functional, regression, smoke, and sanity testing. I also developed automation scripts using Selenium WebDriver with Java, implementing frameworks like TestNG and Page Object Model (POM).
             </p>
             <div className="about-buttons" style={{ marginTop: '2rem' }}>
-              <a href="/resume.pdf" download="Dharun_R_Resume.pdf" className="btn btn-secondary">
+              <a href={resume} download="resume.pdf" className="btn btn-secondary">
                 Download CV <Download className="btn-icon" size={20} />
               </a>
             </div>

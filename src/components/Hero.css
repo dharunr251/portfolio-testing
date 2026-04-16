@@ -20,7 +20,9 @@
   max-width: 600px;
   flex: 1;
 }
-
+.hero-content h2{
+  font-size: 3rem;
+}
 .hero-image-wrapper {
   flex: 1;
   display: flex;
@@ -189,6 +191,15 @@
     text-align: center;
     padding-top: 100px;
     padding-bottom: 50px;
+  }
+  .hero-content h2{
+    font-size: 2rem;
+  }
+  .hero-content h2.name.gradient-text{
+    font-size: 2rem;
+  }
+  .hero-content p{
+    font-size: 22px;
   }
   
   .hero-content {

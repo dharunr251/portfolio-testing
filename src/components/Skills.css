@@ -58,6 +58,11 @@
 }
 
 @media (max-width: 768px) {
+  .skills-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
   .skills-category {
     padding: 1.5rem;
   }

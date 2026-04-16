@@ -6,7 +6,7 @@
 
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 1.2fr;
+  grid-template-columns: 1fr 1.5fr;
   gap: 4rem;
   align-items: center;
 }
@@ -39,6 +39,7 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   animation: fadeIn 0.8s ease backwards;
+  min-height: 220px;
 }
 
 .skill-card:hover {

@@ -1,32 +1,23 @@
 import React from 'react';
-import { ExternalLink, GitBranch } from 'lucide-react';
 import './Projects.css';
 
 const Projects = () => {
   const projects = [
     {
+      title: "TutorialsNinja E-Commerce Website",
+      image: "https://i.pinimg.com/736x/11/33/7e/11337eac665584efeef1233502fd62fb.jpg",
+      description: "Performed Manual Testing on the TutorialsNinja e-commerce application by designing and executing 50 test cases for modules like login, search, cart, and checkout, and conducted functional, regression, smoke, and sanity testing with defect reporting",
+      tags: ["Ms excel","Jira","Test case design & execution","Defect Tracking"],
+      // github: "#",
+      // live: "#"
+    },
+    {
       title: "E-Commerce Platform",
-      image: "https://5.imimg.com/data5/FR/AI/MY-18248335/e-commerce-website.png",
-      description: "A full-scale e-commerce solution with dynamic cart management, Stripe integration, and real-time inventory tracking.",
-      tags: ["python", "django", "mysql", "MVT architecture"],
-      github: "#",
-      live: "#"
-    },
-    {
-      title: "CHAT APPLICATION",
-      image: "https://media.geeksforgeeks.org/wp-content/uploads/20240223113231/Online-Chat-Application.webp",
-      description: "A real-time chat application with features like private messaging, group chats, and file sharing.",
-      tags: ["react", "django", "Rest API", "MySQL"],
-      github: "#",
-      live: "#"
-    },
-    {
-      title: "Portfolio Website",
-      image: "https://cdn.prod.website-files.com/62c5836076839ad95e36215d/64fb2b64316862df3d2e099a_rcQYosTUaQ6hiJSAk7JphBXJCcZpPSAnq6u8U_3pnj0UVcHM5niGdGNBZ625bnZmRDTg4UQFOjd8tuczIfNSZ7JQeRBtnY4NHvGyGjRBe_DVE4QiDsVy9vcllRT7B1Ut7wx9CBDr945F26Um1hF4xM4.png",
-      description: "Portfolio website for showcasing my skills and projects.",
-      tags: ["React", "CSS", "JavaScript"],
-      github: "#",
-      live: "#"
+      image: "https://i.pinimg.com/736x/79/fa/96/79fa9609a55f7513c07f36c17a2b1714.jpg",
+      description: "Automated Testing on the TutorialsNinja e-commerce application by designing and executing 50 test cases for modules like login, search, cart, and checkout, and conducted functional, regression, smoke, and sanity testing with defect reporting",
+      tags: ["Selenium ","Java","TestNG","POM","Maven","Git","GitHub",],
+      // github: "#",
+      // live: "#"
     }
   ];
 
@@ -49,17 +40,15 @@ const Projects = () => {
                     <span className="tag" key={tagIndex}>{tag}</span>
                   ))}
                 </div>
-                <div className="project-links">
+                {/* <div className="project-links">
                   <a href={project.github} className="icon-link"><GitBranch size={20} /> Code</a>
                   <a href={project.live} className="icon-link"><ExternalLink size={20} /> Live Demo</a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
         </div>
       </div>
-      
-      {/* Decorative Blob */}
       <div className="glow-blob blob-3"></div>
     </section>
   );
