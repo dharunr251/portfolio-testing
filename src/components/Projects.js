@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: "E-Commerce Platform",
       image: "https://i.pinimg.com/736x/79/fa/96/79fa9609a55f7513c07f36c17a2b1714.jpg",
-      description: "Automated Testing on the TutorialsNinja e-commerce application by designing and executing 50 test cases for modules like login, search, cart, and checkout, and conducted functional, regression, smoke, and sanity testing with defect reporting",
+      description: "Automated end-to-end testing of an e-commerce web application using Selenium WebDriver and Java, covering key workflows like login, product search, cart, and checkout. Implemented TestNG and Page Object Model (POM) for efficient test execution and maintainability",
       tags: ["Selenium ","Java","TestNG","POM","Maven","Git","GitHub",],
       // github: "#",
       // live: "#"
